@@ -38,7 +38,7 @@ class Spacecraft {
     speedMph: number;
     constructor(name: string, speedMph: number){
         this.name = "Determination";
-        this.speedMph = 17500;
+        this.speedMph = 17500; //17500 or speedMph
     };
     getDaysToLocation(kilometersAway: number) : number {
         let milesAway: number = (kilometersAway * this.milesPerKilometer);

@@ -42,7 +42,7 @@ var Spacecraft = /** @class */ (function () {
     };
     ;
     Spacecraft.prototype.printDaysToLocation = function (location) {
-        console.log(this.name + " would take " + this.getDaysToLocation(location.kilometersAway) + " days to get 22to " + location.name + ".");
+        console.log(this.name + " would take " + this.getDaysToLocation(location.kilometersAway) + " days to get to " + location.name + ".");
     };
     return Spacecraft;
 }());

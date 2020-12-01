@@ -39,7 +39,7 @@ var Rocket = /** @class */ (function (_super) {
         return currentMassKgValue;
     };
     Rocket.prototype.canAdd = function (items) {
-        if (this.currentMassKg() + items.massKg <= this.totalCapacityKg) ///////////////////////////////////////////
+        if (this.currentMassKg() + items.massKg <= this.totalCapacityKg)
             return true;
     };
     Rocket.prototype.addCargo = function (cargo) {

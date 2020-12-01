@@ -2,7 +2,6 @@ import {Astronaut } from './Astronaut';
 import {Payload} from './Payload';
 import {Cargo} from './Cargo';
 
-
 export class Rocket extends Payload {
     name: string;
     totalCapacityKg: number;
@@ -30,41 +29,8 @@ export class Rocket extends Payload {
         return currentMassKgValue
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     canAdd(items: Payload): boolean{
-        if(this.currentMassKg() + items.massKg <= this.totalCapacityKg)///////////////////////////////////////////
+        if(this.currentMassKg() + items.massKg <= this.totalCapacityKg)
         return true
     }
 
